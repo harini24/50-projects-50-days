@@ -13,7 +13,7 @@ jobs:
     env:
       APP_ID: e5e532ceb1bb0354501bdc9c71406a820af447f8904294af3b259af2ef872c53
       BRANCH_NAME: expanding_cards
-      SCAN_ID: e9031b61a4d3d156174ed63b90f376a3852a032f49e6c06f0162fab630e358f8
+      SCAN_ID: ec6bce44d1719d9e5eb855fe7d6328ae503ca22b303afc7cf80b5b76cf1ee882
       REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://f77c-103-163-45-49.ngrok.io/resultapi\"\
         ,\"SL_RESULTPARSER_API_HOST\":\"https://1263-103-163-45-49.ngrok.io/resultparserapi\"\
         }')}}"
